@@ -1,11 +1,11 @@
 import { ChatScreen } from "./ChatScreen/ChatScreen";
-import messiFoto from '../../assets/messi.jpg'
-import charlyFoto from '../../assets/charly.png'
-import dukiFoto from '../../assets/duki.png'
+import messiFoto from '/assets/messi.jpg'
+import charlyFoto from '/assets/charly.png'
+import dukiFoto from '/assets/duki.png'
 
-const messiSticker = "../../../../assets/messiYsi.jpg"
-const coscuSticker = "../../../../assets/polimardo.png"
-const spidermanTriste = '../../../../assets/spidermanTriste.jpeg'
+const messiSticker = "/assets/messiYsi.jpg"
+const coscuSticker = "/assets/polimardo.png"
+const spidermanTriste = '/assets/spidermanTriste.jpeg'
 
 
 

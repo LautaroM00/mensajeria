@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import "./ChatHeaderInfo.css"
-import camaraIcono from "../../../../iconos/camara.png"
-import telefono from "../../../../iconos/telefono.png"
-import lupita from "../../../../iconos/lupita.png"
+import camaraIcono from "/iconos/camara.png"
+import telefono from "/iconos/telefono.png"
+import lupita from "/iconos/lupita.png"
 import { HiArrowSmLeft } from "react-icons/hi";
 import { Link } from 'react-router-dom'
 
@@ -12,7 +12,7 @@ export const ChatHeaderInfo = ({ nombre, thumbnail, setFiltroMensajes }) => {
     const [colorLupita, setColorLupita] = useState('')
 
     if (thumbnail === '') {
-        thumbnail = "../../../../assets/defaultUser.png"
+        thumbnail = "/assets/defaultUser.png"
         nombre = ''
     }
 

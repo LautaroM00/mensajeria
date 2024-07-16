@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './ChatsPreviewHeader.css'
-import lupita from "../../../../iconos/lupita.png"
+import lupita from "/iconos/lupita.png"
 
 
 

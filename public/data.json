@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Messi",
-        "thumbnail": "../../../../assets/messi.jpg",
+        "thumbnail": "/assets/messi.jpg",
         "ultima_conexion": "ayer",
         "id": 1,
         "mensajes": [
@@ -130,7 +130,7 @@
     {
         "nombre": "Charly",
         "id": 2,
-        "thumbnail": "../../../../assets/charly.png",
+        "thumbnail": "/assets/charly.png",
         "ultima_conexion": "ayer",
         "mensajes": [
             {
@@ -162,7 +162,7 @@
     {
         "nombre": "Duki",
         "id": 3,
-        "thumbnail": "../../../../assets/duki.png",
+        "thumbnail": "/assets/duki.png",
         "ultima_conexion": "ayer",
         "mensajes": [
             {

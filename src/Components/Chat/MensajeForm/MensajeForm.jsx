@@ -1,6 +1,6 @@
 import React from 'react'
 import './MensajeForm.css'
-import enviar from "../../../../iconos/enviar.png"
+import enviar from "/iconos/enviar.png"
 
 export const MensajeForm = ({ agregarMensaje, isLoading }) => {
 
