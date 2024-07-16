@@ -1,0 +1,87 @@
+.header{
+    height:77px;
+    width:360px;
+    padding:10px;
+    background-color: #202D36;
+    border-radius: 40px 35px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.fotoPerfil{
+    width: 55px;
+    height:55px;
+    border-radius: 100%;
+}
+
+.header .izquierda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color:white;
+}
+
+.header h3{
+    color:white;
+    font-weight: 400;
+}
+
+.header .derecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+
+.header .derecha img{
+    width:20px;
+    display: flex;
+    align-items: center;
+}
+.header .derecha img:hover{
+    cursor: pointer;
+}
+
+.header .derecha img:nth-child(1){
+    width:23px;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(245, 222, 179, 0);
+    border: none;
+    height:35px;
+    width:35px;
+}
+
+.boton:active{
+    height:35px;
+    width:35px;
+    background-color: #152027;
+    border-radius: 50%;
+}
+
+.filtro{
+    position: absolute;
+    margin-top: 10px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.filtro input{
+    width:120px;
+    background-color: #284a63;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid rgba(231, 208, 208, 0.171);
+    box-shadow: 0 0 5px 2px rgb(22, 21, 21);
+    padding: 5px 10px;
+    color:rgb(199, 197, 197);
+}

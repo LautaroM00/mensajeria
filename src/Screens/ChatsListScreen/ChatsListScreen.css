@@ -1,0 +1,12 @@
+@import url(../phoneScreen.css);
+
+.ChatsListScreen{
+    width:362px;
+    height:741px;
+    border-radius: 38px;
+    position: relative;
+    top: 7px;
+    left: 1px;
+    background-color: #121B22;
+    overflow: hidden;
+}

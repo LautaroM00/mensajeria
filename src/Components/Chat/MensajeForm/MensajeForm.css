@@ -1,0 +1,31 @@
+.input-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin: 10px 0 0 0;
+}
+
+.input-mensaje{
+    height: 30px;
+    width:260px;
+    border-radius: 20px;
+    background-color: #202D36;
+    padding:10px;
+    color:white;
+}
+
+.input-submit button{
+    background-color: #03AB9A;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-submit button:hover{
+    cursor: pointer;
+}

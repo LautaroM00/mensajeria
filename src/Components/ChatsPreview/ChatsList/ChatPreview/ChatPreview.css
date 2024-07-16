@@ -1,0 +1,39 @@
+.ChatPreview{
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #E9EDF0;
+    background-color: #1e2931;
+    box-shadow: 0 0 5px 3px #1a1c1f;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.ChatPreview:hover{
+    background-color: #283641;
+}
+
+.thumbnail{
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.datos{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.medio{
+    display: flex;
+    flex-direction: column;
+    gap:6px
+}
+
+.medio div{
+    color: #798892;
+}
+
+.derecha{
+    color: #798892;
+}

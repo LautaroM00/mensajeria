@@ -1,0 +1,62 @@
+.ChatsPreviewHeader{
+    height: 13%;
+    background-color: #1F2C34;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ChatsPreviewHeader .arriba{
+    padding:17px 17px 5px 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ChatsPreviewHeader h2{
+    color:#798892;
+    font-weight: 520;
+    letter-spacing: -1px;
+}
+
+.ChatsPreviewHeader .abajo{
+    display: flex;
+    padding: 0 5px;
+}
+
+.ChatsPreviewHeader .selectorChat{
+    color:#01A480;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #01A480;
+    width:30%;
+    padding: 10px;
+}
+
+.ChatsPreviewHeader .contenedorBotonInput{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+.ChatsPreviewHeader .boton{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.ChatsPreviewHeader .boton:hover{
+    cursor: pointer;
+}
+
+.ChatsPreviewHeader .input{
+    width: 150px;
+    background-color: #284a63;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid rgba(231, 208, 208, 0.171);
+    box-shadow: 0 0 5px 1px rgb(22, 21, 21);
+    padding: 3px 10px;
+    color:rgb(199, 197, 197);
+}

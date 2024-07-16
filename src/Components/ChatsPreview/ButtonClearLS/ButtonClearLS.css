@@ -1,0 +1,9 @@
+.btn-reiniciar {
+    padding: 10px;
+    background-color: #1c415e;
+    border-radius: 10px;
+    border-radius: 15px;
+    color:rgb(27, 26, 26);
+    font-weight: 700;
+    background: linear-gradient(145deg, #9cb7cc, #839aac);
+}
